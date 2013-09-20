@@ -18,3 +18,8 @@ plot(tabulka.roky$Freq~tabulka.roky$d1,
      main="Kolik partnerství uzavřela česká města v jednotlivých letech",
      col="orange",
      lwd=3)
+
+# nejstarší partnerství
+
+pred.1989  <- vztahy[vztahy$V11<1990&vztahy$V11!=0,]
+pred.1989[pred.1989$V10=="Francie",]

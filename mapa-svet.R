@@ -17,6 +17,7 @@ svetSHP  <- readShapePoly("CNTR_2010_03M_SH/Data/CNTR_RG_03M_2010.shp")
 display.brewer.all()
 paleta  <- brewer.pal(8, "Set1")
 
+
 #seřaď vztahy podle počtu partnerství
 pp  <- as.numeric(vector())
 for (i in 1:nrow(vztahy)) {
@@ -27,7 +28,7 @@ vztahy  <- vztahy[order(vztahy$pp),]
 
 
 # generuj graf
-png("mapa-svet.png", res=2400, height=14400, width=19200)
+png("mapa-svet.png", res=1920, height=11520, width=15360)
 
 # zmenši okraje
 par(mai=c(0,0,0.5,0))
@@ -40,7 +41,7 @@ ylim <- c(-55, 80)
 map("world", col="#f2f2f2", fill=T, bg="white", lwd=0.1, xlim=xlim, ylim=ylim)
 
 # překresli podrobnější hranice (+ zjednodušení)
-# plot(thinnedSpatialPoly(svetSHP, tolerance=0.1, minarea=0.001), add=TRUE, xlim=xlim, ylim=ylim, col="#f2f2f2", border=TRUE, lwd=0.35)
+plot(thinnedSpatialPoly(svetSHP, tolerance=0.1, minarea=0.001), add=TRUE, xlim=xlim, ylim=ylim, col="#f2f2f2", border=TRUE, lwd=0.35)
 
 # nakresli spojnice mezi partnerskými městy
 for (i in 1:nrow(vztahy)) {
@@ -71,13 +72,13 @@ for (i in 1:nrow(vztahy)) {
   }
   
   else {
-  lines(spojnice, lwd=0.1)
+  lines(spojnice, lwd=0.05, col="grey65")
   }
 }
 
 #legenda a titulek
-legend("bottomleft", legend=c("Brno [14]", "Praha [14]", "Ostrava [10]", "Žamberk [9]", "Znojmo [9]", "Kutná Hora [9]", "Hradec Králové [9]", "Bystré [9]"), pch=15, col=c(paleta[1], paleta[2], paleta[3], paleta[4], paleta[5], paleta[6], paleta[7]), cex=0.5, pt.cex=1)
+legend("bottomleft", legend=c("Brno [14]", "Praha [14]", "Ostrava [10]", "Žamberk [9]", "Znojmo [9]", "Kutná Hora [9]", "Hradec Králové [9]", "Bystré [9]", "Ostatní[883]"), pch=15, col=c(paleta[1], paleta[2], paleta[3], paleta[4], paleta[5], paleta[6], paleta[7], paleta[8], "grey65"), cex=0.5, pt.cex=1)
 
-title(main="Česká města s nejvyšším počtem partnerství")
+title(main="Česká města s nejvyšším počtem partnerství", cex=0.5)
 
 dev.off()

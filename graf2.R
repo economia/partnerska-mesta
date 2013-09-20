@@ -22,4 +22,4 @@ plot(tabulka.roky$Freq~tabulka.roky$d1,
 # nejstarší partnerství
 
 pred.1989  <- vztahy[vztahy$V11<1990&vztahy$V11!=0,]
-pred.1989[pred.1989$V10=="Francie",]
+pred.1989[pred.1989$V10=="Belgie",]

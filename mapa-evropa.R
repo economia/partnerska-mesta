@@ -9,7 +9,14 @@ svetSHP  <- readShapePoly("CNTR_2010_03M_SH/Data/CNTR_RG_03M_2010.shp")
 
 #barvy
 display.brewer.all()
-paleta  <- brewer.pal(9, "Set1")
+paleta  <- brewer.pal(8, "Set1")
+display.brewer.pal(8, "Set1")
+
+# generuj graf
+png("mapa-evropa.png", res=600, height=3600, width=4800)
+
+# zmenši okraje
+par(mai=c(0,0,0.5,0))
 
 #výřez z mapy - Evropa
 xlim <- c(-6.5, 24)
@@ -34,17 +41,17 @@ for (i in 1:nrow(vztahy)) {
   else if (vztahy[i,10]=="Slovensko")
   {lines(spojnice, col=paleta[4], lwd=0.25)
   }
-  else if (vztahy[i,10]=="Rakousko")
-  {lines(spojnice, col=paleta[3], lwd=0.25)
-  }
   else if (vztahy[i,10]=="Itálie")
   {lines(spojnice, col=paleta[5], lwd=0.25)
   }
+  else if (vztahy[i,10]=="Rakousko")
+  {lines(spojnice, col=paleta[3], lwd=0.25)
+  }
   else if (vztahy[i,10]=="Francie")
-  {lines(spojnice, col=paleta[6], lwd=0.25)
+  {lines(spojnice, col=paleta[7], lwd=0.25)
   }
    else if (vztahy[i,10]=="Švýcarsko")
-  {lines(spojnice, col=paleta[7], lwd=0.25)
+  {lines(spojnice, col=paleta[6], lwd=0.25)
   }
    else if (vztahy[i,10]=="Nizozemsko")
    {lines(spojnice, col=paleta[8], lwd=0.25)
@@ -55,6 +62,8 @@ for (i in 1:nrow(vztahy)) {
 }
 
 #legenda a titulek
-legend("bottomleft", legend=c("Německo [223]", "Polsko [190]", "Slovensko [188]", "Itálie [59]", "Rakousko [52]", "Francie [47]", "Švýcarsko [30]", "Nizozemsko [28]"), pch=15, col=c(paleta[1], paleta[2], paleta[4], paleta[5], paleta[3], paleta[6], paleta[7], paleta[8]), cex=0.8, pt.cex=1.3)
+legend("bottomleft", legend=c("Německo [227]", "Polsko [190]", "Slovensko [188]", "Itálie [59]", "Rakousko [52]", "Francie [48]", "Švýcarsko [30]", "Nizozemsko [28]"), pch=15, col=c(paleta[1], paleta[2], paleta[4], paleta[5], paleta[3], paleta[7], paleta[6], paleta[8]), cex=0.5, pt.cex=1)
 
-title(main="Evropské země s nejvyšším počtem partnerství")
+title(main="Státy s nejvyšším počtem partnerských měst")
+
+dev.off()

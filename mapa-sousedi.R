@@ -20,7 +20,7 @@ xlim <- c(4.39, 25.2)
 ylim <- c(45.3, 55.1)
 
 # generuj graf
-png("mapa-sousedi.png", res=300, height=1800, width=2400)
+png("mapa-sousedi.png", res=600, height=3600, width=4800)
 
 # zmenši okraje
 par(mai=c(0,0,0.5,0))

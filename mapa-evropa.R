@@ -64,6 +64,6 @@ for (i in 1:nrow(vztahy)) {
 #legenda a titulek
 legend("bottomleft", legend=c("Německo [227]", "Polsko [190]", "Slovensko [188]", "Itálie [59]", "Rakousko [52]", "Francie [48]", "Švýcarsko [30]", "Nizozemsko [28]"), pch=15, col=c(paleta[1], paleta[2], paleta[4], paleta[5], paleta[3], paleta[7], paleta[6], paleta[8]), cex=0.5, pt.cex=1)
 
-title(main="Státy s nejvyšším počtem partnerských měst")
+title(main="Státy s nejvyšším počtem českých partnerských měst")
 
 dev.off()

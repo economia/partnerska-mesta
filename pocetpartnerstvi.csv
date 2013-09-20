@@ -1,0 +1,412 @@
+"","Var1","Freq"
+"1","Brno",14
+"2","Praha",14
+"3","Ostrava",10
+"4","Bystré",9
+"5","Hradec Králové",9
+"6","Kutná Hora",9
+"7","Znojmo",9
+"8","Žamberk",9
+"9","Frýdek-Místek",8
+"10","Frýdlant nad Ostravicí",8
+"11","Karlovy Vary",8
+"12","Krnov",8
+"13","Olomouc",8
+"14","Prachatice",8
+"15","Příbram",8
+"16","Zlín",8
+"17","Bílina",7
+"18","Havířov",7
+"19","Nepomuk",7
+"20","Písek",7
+"21","Plzeň",7
+"22","Trutnov",7
+"23","Český Krumlov",6
+"24","Hodonín",6
+"25","Nový Jičín",6
+"26","Opava",6
+"27","Pardubice",6
+"28","Říčany",6
+"29","Šumperk",6
+"30","Tábor",6
+"31","Blansko",5
+"32","Bruntál",5
+"33","Břeclav",5
+"34","České Budějovice",5
+"35","Holešov",5
+"36","Kopřivnice",5
+"37","Kroměříž",5
+"38","Litoměřice",5
+"39","Mariánské Lázně",5
+"40","Přerov",5
+"41","Smržovka",5
+"42","Stříbro",5
+"43","Svitavy",5
+"44","Valašské Meziříčí",5
+"45","Vsetín",5
+"46","Aš",4
+"47","Beroun",4
+"48","Blatná",4
+"49","Dobruška",4
+"50","Hlučín",4
+"51","Chomutov",4
+"52","Ivančice",4
+"53","Jablonec nad Nisou",4
+"54","Jeseník",4
+"55","Kamenický Šenov",4
+"56","Klatovy",4
+"57","Kralupy nad Vltavou",4
+"58","Kyjov",4
+"59","Lanškroun",4
+"60","Litovel",4
+"61","Louny",4
+"62","Ludgeřovice",4
+"63","Mělník",4
+"64","Mikulovice",4
+"65","Orlová",4
+"66","Rakovník",4
+"67","Rožnov pod Radhoštěm",4
+"68","Slavkov u Brna",4
+"69","Sušice",4
+"70","Třeboň",4
+"71","Uherské Hradiště",4
+"72","Vodňany",4
+"73","Vyškov",4
+"74","Žatec",4
+"75","Benátky nad Jizerou",3
+"76","Bohumín",3
+"77","Boskovice",3
+"78","Brandýs nad Labem-Stará Boleslav",3
+"79","Čermná nad Orlicí",3
+"80","Černošice",3
+"81","Černý Důl",3
+"82","Česká Třebová",3
+"83","Děčín",3
+"84","Doksy",3
+"85","Domažlice",3
+"86","Horní Slavkov",3
+"87","Horní Tošanovice",3
+"88","Hořice",3
+"89","Hranice",3
+"90","Cheb",3
+"91","Chrudim",3
+"92","Jihlava",3
+"93","Konstantinovy Lázně",3
+"94","Kostelec nad Orlicí",3
+"95","Lhotka",3
+"96","Luhačovice",3
+"97","Meziměstí",3
+"98","Milevsko",3
+"99","Mimoň",3
+"100","Moravská Třebová",3
+"101","Mýto",3
+"102","Nové Město nad Metují",3
+"103","Nové Město pod Smrkem",3
+"104","Nový Bydžov",3
+"105","Osečná",3
+"106","Polička",3
+"107","Prostějov",3
+"108","Pustá Polom",3
+"109","Rousínov",3
+"110","Rýmařov",3
+"111","Slavičín",3
+"112","Strakonice",3
+"113","Tanvald",3
+"114","Tišnov",3
+"115","Třebíč",3
+"116","Uničov",3
+"117","Varnsdorf",3
+"118","Velké Meziříčí",3
+"119","Velké Opatovice",3
+"120","Veselí nad Moravou",3
+"121","Vrchlabí",3
+"122","Žďár nad Sázavou",3
+"123","Židlochovice",3
+"124","Bělá nad Radbuzou",2
+"125","Bělá pod Bezdězem",2
+"126","Bezdružice",2
+"127","Bílovec",2
+"128","Blovice",2
+"129","Bor",2
+"130","Borovany",2
+"131","Buchlovice",2
+"132","Bystřice nad Pernštejnem",2
+"133","Bzenec",2
+"134","Česká Skalice",2
+"135","Český Těšín",2
+"136","Dobřany",2
+"137","Dolní Kounice",2
+"138","Duchcov",2
+"139","Dvůr Králové nad Labem",2
+"140","Halže",2
+"141","Holice",2
+"142","Horní Maršov",2
+"143","Hronov",2
+"144","Hvozdná",2
+"145","Chabařovice",2
+"146","Chrastava",2
+"147","Jablunkov",2
+"148","Javorník",2
+"149","Jemnice",2
+"150","Jílové u Prahy",2
+"151","Jindřichův Hradec",2
+"152","Kadaň",2
+"153","Kamenice nad Lipou",2
+"154","Klášterec nad Ohří",2
+"155","Kobyly",2
+"156","Košařiska",2
+"157","Kovářov",2
+"158","Kravaře",2
+"159","Kunovice",2
+"160","Lánov",2
+"161","Letohrad",2
+"162","Lhenice",2
+"163","Litomyšl",2
+"164","Litvínov",2
+"165","Měrunice",2
+"166","Město Albrechtice",2
+"167","Meziboří",2
+"168","Milíkov",2
+"169","Mnichovo Hradiště",2
+"170","Most",2
+"171","Mosty u Jablunkova",2
+"172","Nové Hrady",2
+"173","Nové Město na Moravě",2
+"174","Novosedly nad Nežárkou",2
+"175","Nový Bor",2
+"176","Odry",2
+"177","Osek",2
+"178","Oslavany",2
+"179","Ostrov",2
+"180","Otrokovice",2
+"181","Paseky nad Jizerou",2
+"182","Pelhřimov",2
+"183","Petřvald",2
+"184","Plánice",2
+"185","Poběžovice",2
+"186","Počátky",2
+"187","Pohořelice",2
+"188","Postřelmov",2
+"189","Pržno",2
+"190","Přibyslav",2
+"191","Rakvice",2
+"192","Rokycany",2
+"193","Rosice",2
+"194","Roudnice nad Labem",2
+"195","Rozsochy",2
+"196","Slavonice",2
+"197","Sokolov",2
+"198","Stochov",2
+"199","Strání",2
+"200","Strašice",2
+"201","Strážnice",2
+"202","Sudkov",2
+"203","Suchdol nad Odrou",2
+"204","Svatobořice-Mistřín",2
+"205","Světlá Hora",2
+"206","Světlá nad Sázavou",2
+"207","Šenov",2
+"208","Štěpánkovice",2
+"209","Štíty",2
+"210","Tachov",2
+"211","Telč",2
+"212","Uherský Brod",2
+"213","Úpice",2
+"214","Velichovky",2
+"215","Velká Bíteš",2
+"216","Velké Přílepy",2
+"217","Vendryně",2
+"218","Veřovice",2
+"219","Vítkov",2
+"220","Vražné",2
+"221","Všeruby",2
+"222","Výrava",2
+"223","Vysoké Mýto",2
+"224","Vyšší Brod",2
+"225","Zábřeh",2
+"226","Zlaté Hory",2
+"227","Albrechtice",1
+"228","Benešov nad Ploučnicí",1
+"229","Blšany u Loun",1
+"230","Bludov",1
+"231","Bohdalov",1
+"232","Bohuslavice u Zlína",1
+"233","Bochov",1
+"234","Bojkovice",1
+"235","Bořetice",1
+"236","Bozkov",1
+"237","Brno-Líšeň",1
+"238","Brumovice",1
+"239","Bruzovice",1
+"240","Březnice",1
+"241","Březová",1
+"242","Břežany",1
+"243","Černá Voda",1
+"244","Červená Řečice",1
+"245","Česká Ves",1
+"246","Dačice",1
+"247","Dětmarovice",1
+"248","Dětřichov",1
+"249","Dobratice",1
+"250","Dolní Dobrouč",1
+"251","Dolní Loučky",1
+"252","Dolní Stakory",1
+"253","Dolní Studénky",1
+"254","Dolní Tošanovice",1
+"255","Dražíč",1
+"256","Drnovice",1
+"257","Dřevohostice",1
+"258","Dříteč",1
+"259","Francova Lhota",1
+"260","Habartice",1
+"261","Háj u Duchcova",1
+"262","Háj ve Slezsku",1
+"263","Hejnice",1
+"264","Hejtmánkovice",1
+"265","Hlubočky",1
+"266","Hodkovice nad Mohelkou",1
+"267","Hodslavice",1
+"268","Holýšov",1
+"269","Horažďovice",1
+"270","Horní Benešov",1
+"271","Horní Radechová",1
+"272","Hostinné",1
+"273","Hostouň",1
+"274","Hutisko-Solanec",1
+"275","Hýsly",1
+"276","Chelčice",1
+"277","Chlum u Třeboně",1
+"278","Chlumec nad Cidlinou",1
+"279","Chvalčov",1
+"280","Jablonec nad Jizerou",1
+"281","Janovice nad Úhlavou",1
+"282","Jaroměř",1
+"283","Jedovnice",1
+"284","Jičín",1
+"285","Jimramov",1
+"286","Jindřichov",1
+"287","Jirkov",1
+"288","Jívka",1
+"289","Kamenné Zboží",1
+"290","Kamenný Újezd",1
+"291","Kamýk nad Vltavou",1
+"292","Kanice",1
+"293","Kdyně",1
+"294","Klášterec nad Orlicí",1
+"295","Kopidlno",1
+"296","Kosmonosy",1
+"297","Kostelec nad Černými Lesy",1
+"298","Kostice",1
+"299","Košíky",1
+"300","Kotvrdovice",1
+"301","Králova Lhota",1
+"302","Kraslice",1
+"303","Kunvald",1
+"304","Kuřim",1
+"305","Kynšperk nad Ohří",1
+"306","Lačnov",1
+"307","Lanžhot",1
+"308","Libá",1
+"309","Libčany",1
+"310","Libchavy",1
+"311","Líšťany",1
+"312","Loket",1
+"313","Louka",1
+"314","Luby",1
+"315","Lukoveček",1
+"316","Lužany",1
+"317","Malenice",1
+"318","Martínkovice",1
+"319","Medlov",1
+"320","Mičovice",1
+"321","Milín",1
+"322","Miroslav",1
+"323","Mirotice",1
+"324","Místo",1
+"325","Mohelnice",1
+"326","Mošnov",1
+"327","Náklo",1
+"328","Náměšť na Hané",1
+"329","Náměšť nad Oslavou",1
+"330","Nasavrky",1
+"331","Návojná",1
+"332","Neratovice",1
+"333","Nišovice",1
+"334","Nivnice",1
+"335","Nová Bystřice",1
+"336","Nová Role",1
+"337","Nová Ves",1
+"338","Nová Ves v Horách",1
+"339","Nový Přerov",1
+"340","Obrnice",1
+"341","Opatov",1
+"342","Osoblaha",1
+"343","Ostrata",1
+"344","Otročiněves",1
+"345","Pacov",1
+"346","Píšť",1
+"347","Pitín",1
+"348","Planá",1
+"349","Pomezí nad Ohří",1
+"350","Postřekov",1
+"351","Pozořice",1
+"352","Prusice",1
+"353","Příšovice",1
+"354","Rabí",1
+"355","Radkov",1
+"356","Radomyšl",1
+"357","Radslavice",1
+"358","Rapšach",1
+"359","Ratiboř",1
+"360","Rokytnice nad Jizerou",1
+"361","Rouské",1
+"362","Rovensko pod Troskami",1
+"363","Rozvadov",1
+"364","Ruda nad Moravou",1
+"365","Rudná",1
+"366","Rusín",1
+"367","Rychnov u Jablonce nad Nisou",1
+"368","Řepiště",1
+"369","Sedlčany",1
+"370","Sedlec-Prčice",1
+"371","Sezimovo Ústí",1
+"372","Skalná",1
+"373","Slavětín",1
+"374","Soběslav",1
+"375","Stachy",1
+"376","Stará Ves nad Ondřejnicí",1
+"377","Starý Poddvorov",1
+"378","Studénka",1
+"379","Suchdol nad Lužnicí",1
+"380","Suchohrdly",1
+"381","Šanov",1
+"382","Šilheřovice",1
+"383","Škrdlovice",1
+"384","Trmice",1
+"385","Třebívlice",1
+"386","Tupesy",1
+"387","Týn nad Vltavou",1
+"388","Týniště nad Orlicí",1
+"389","Uherský Ostroh",1
+"390","Úsov",1
+"391","Úvalno",1
+"392","Úvaly",1
+"393","Václavov u Bruntálu",1
+"394","Valašská Bystřice",1
+"395","Vedrovice",1
+"396","Velká nad Veličkou",1
+"397","Velká Polom",1
+"398","Velké Kunětice",1
+"399","Velké Němčice",1
+"400","Vikýřovice",1
+"401","Vimperk",1
+"402","Vizovice",1
+"403","Vlkoš",1
+"404","Volyně",1
+"405","Vrbovec",1
+"406","Všeradice",1
+"407","Zadní Třebaň",1
+"408","Ždírec nad Doubravou",1
+"409","Želiv",1
+"410","Ženklava",1
+"411","Žichovice",1
